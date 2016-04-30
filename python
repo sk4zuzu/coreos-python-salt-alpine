@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+LD_LIBRARY_PATH=/opt/python/lib exec /opt/python/bin/python.bin "$@"
+
+# vim:ts=4:sw=4:et:
