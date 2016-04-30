@@ -1,17 +1,17 @@
 
 Based on `alpine`, simplistic `python27` interpreter with `coreos`-usable `python-salt` installed. 
 
-# BUILD
+## BUILD
 ```
 ./build.sh --no-cache
 ```
 
-# PUSH
+## PUSH
 ```
 docker push <your-docker-registry>/coreos-python-salt-alpine
 ```
 
-# RUN
+## RUN
 ```
 docker run --rm -v /opt:/destdir -t <your-docker-registry>/coreos-python-salt-alpine
 ```
